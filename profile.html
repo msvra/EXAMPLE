@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="CSS/profile.css">
+</head>
+<body>
+    <header>
+        <h1>Perks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rewards.html">Rewards</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="eVoucher.html">Transactions</a></li>
+                <li><a href="snapreceipt.html">Earn Points</a></li>
+                <li><a href="engagement.html">Engagement Rewards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="profile-container">
+        <h1>Profile Settings</h1>
+        <form id="profileForm">
+ 
+            <div class="form-section">
+                <h2>Change Password</h2>
+                <label for="currentPassword">Current Password:</label>
+                <input type="password" id="currentPassword" name="currentPassword">
+               
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword">
+               
+                <label for="confirmPassword">Confirm New Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+            </div>
+ 
+            <div class="form-section">
+                <h2>Notification Preferences</h2>
+                <label><input type="checkbox" id="emailNotifications" name="notifications" value="email"> Email Notifications</label>
+                <label><input type="checkbox" id="smsNotifications" name="notifications" value="sms"> SMS Notifications</label>
+                <label><input type="checkbox" id="pushNotifications" name="notifications" value="push"> Push Notifications</label>
+            </div>
+ 
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

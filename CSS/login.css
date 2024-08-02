@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff2e2e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+nav ul {
+    list-style: none;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.reward-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5em;
+}
+
+form input, form textarea {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #3c393a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff2e2e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+img { 
+    width: 300px;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#desc {
+    text-align: center;
+}
+
+#bali1 {
+    width : 200px
+}
+

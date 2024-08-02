@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Lifestyle Rewards</title>
+    <link rel="stylesheet" href="CSS/sk2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Perks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rewards.html">Rewards</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="eVoucher.html">Transactions</a></li>
+                <li><a href="snapreceipt.html">Earn Points</a></li>
+                <li><a href="profile.html">Settings</a></li>
+                <li><a href="engagement.html">Engagement Rewards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="flex-container">
+                <img src="SK2.jpg" alt="SK-II Skin Power Cream 80g">
+                <div>
+                    <p>HEALTH & BEAUTY</p>
+                    <h3>SK-II Skin Power Cream 80g</h3>
+                    <p>5100 Points</p>
+                    <hr>
+                    <p>Availability: Available</p>
+                    <hr>
+                    <p><strong>Product Features:</strong></p>
+                    <p>Using Pitera™ Technology with Infinite Power Technology - <br>
+                    precious plant essence, such as lilies and peony, skin is nourished and protected from external stressors, maintaining the beauty and healthiness of youthful skin.</p>
+                    <button type="button" id="redeemButton" onclick="handleclick()">Redeem Now</button>
+ 
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function handleclick() {
+            alert("You have redeemed one item!");
+            document.getElementById('redeemButton').innerText = 'Redeemed';
+        }
+    </script>
+    <footer>
+        <p>2024 Perks Rewards</p>
+    </footer>
+</body>
+</html>

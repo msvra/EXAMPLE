@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Receipt</title>
+    <link rel="stylesheet" href="CSS/snapreceipt.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snap Your Receipt</h1>
+        <div class="camera">
+            <video id="video" autoplay></video>
+            <button id="snap">Snap Photo</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <form id="receiptForm">
+            <input type="file" id="upload" accept="image/*" capture="camera" style="display:none;">
+            <button type="button" id="uploadButton">Upload from Gallery</button>
+            <input type="hidden" id="imageData" name="imageData">
+            <button type="submit">Redeem Points</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

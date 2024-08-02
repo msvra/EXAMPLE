@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Lifestyle Rewards</title>
+    <link rel="stylesheet" href="CSS/apple.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Perks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rewards.html">Rewards</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="eVoucher.html">Transactions</a></li>
+                <li><a href="snapreceipt.html">Earn Points</a></li>
+                <li><a href="profile.html">Settings</a></li>
+                <li><a href="engagement.html">Engagement Rewards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="flex-container">
+                <img src="iphone.jpg" alt="iphone">
+                <div>
+                    <p></p>
+                    <h3>Apple iPhone 15 128GB (5 Colour Options)</h3>
+                    <p>35000 Points</p>
+                    <hr>
+                    <p>Availability: Available</p>
+                    <hr>
+                    <p>Color Available:</p>
+                    <ul>
+                        <li>blue</li>
+                        <li>pink</li>
+                        <li>yellow</li>
+                        <li>green</li>
+                        <li>black</li>
+                    </ul>
+                    <hr>
+                    <p><strong>Product Features:</strong></p>
+                    <ul>
+                        <li>6.1″ Super Retina XDR display footnote</li>
+                        <li>Aluminum with color-infused glass back</li>
+                        <li>Ring/Silent switch</li>
+                        <li>Dynamic Island: A magical way to interact with iPhone</li>
+                        <li>A16 Bionic chip with 5-core GPU</li>
+                        <li>Advanced dual-camera system: 48MP Main/Ultra Wide, super-high-resolution photos (24MP and 48MP), next-generation portraits with Focus and Depth Control</li>
+                        <li>Up to 20 hours video playback</li>
+                        <li>Water resistant to a depth of 6 meters for up to 30 minutes</li>
+                    </ul>
+                    <p>Each member can redeem a maximum of two items from the iPhone 15 series within 30 days.</p>
+                    <p>For more product details: https://www.apple.com/</p>
+                    <button type="button" id="redeemButton" onclick="handleclick()">Redeem Now</button>
+ 
+                </div>
+            </div>
+        </div>
+    </main>
+    <a href="reward.html" class="btn">back</a>
+    <script>
+        function handleclick() {
+            alert("You have redeemed one item!");
+            document.getElementById('redeemButton').innerText = 'Redeemed';
+        }
+    </script>
+    <footer>
+        <p>2024 Perks Rewards</p>
+    </footer>
+</body>
+</html>
